@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Youth
+{% endblock %}
+
+{% block body %}
+<h2> {% for i in obj %}
+    <li>{{i}}
+        {% endfor %}
+</h2>
+{% endblock %}
