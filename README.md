@@ -1,4 +1,4 @@
-# First HomeWork django project
+﻿# First HomeWork django project
 
 ## Task
 
@@ -17,3 +17,5 @@
 
 endpoints should return the data from the table that corresponds to the selected category
 Advanced: Experiment with the admin panel parameters in the Admin Class.
+
+..
