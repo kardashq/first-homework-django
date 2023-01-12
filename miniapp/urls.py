@@ -1,8 +1,9 @@
 from django.urls import path
-from miniapp.views import childhood, youth, adulthood
+from miniapp.views import *
 
 urlpatterns = [
-    path('childhood/', childhood),
-    path('youth/', youth),
-    path('adulthood/', adulthood),
+    path('', index, name='index'),
+    path('childhood/', childhood, name='childhood'),
+    path('youth/', youth, name='youth'),
+    path('adulthood/', adulthood, name='adulthood'),
 ]

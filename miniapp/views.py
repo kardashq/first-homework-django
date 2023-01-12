@@ -2,6 +2,10 @@ from django.shortcuts import HttpResponse, render
 from miniapp.models import Event
 
 
+def index(request):
+    return render(request, 'index.html')
+
+
 def childhood(request):
     objs = Event.objects.filter(category__title='childhood')
     if objs:
