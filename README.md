@@ -15,5 +15,6 @@
 
 #### Acceptance criteria:
 
-endpoints should return the data from the table that corresponds to the selected category
+endpoints should return the data from the table that corresponds to the selected category  
+
 Advanced: Experiment with the admin panel parameters in the Admin Class.
